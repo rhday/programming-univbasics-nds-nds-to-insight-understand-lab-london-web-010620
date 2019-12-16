@@ -8,11 +8,11 @@ def pretty_print_nds(nds)
   nil
 end
 
-def print_first_directors_movie_titles(directors_database)
+def print_first_directors_movie_titles
     directors_database = []
     element_index = 0
     while element_index < directors_database.length do
-      puts directors_database[element_index]
+      p directors_database[element_index]
       directors_database << directors_database[element_index]
       element_index += 1
   end
